@@ -6,6 +6,3 @@ resource "aws_instance" "chils_instance" {
         "Name" = "${var.server_tag}"
     }
 }
-resource "aws_subnet" "public_subnet" {
-    vpc_id = 
-}
