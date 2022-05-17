@@ -7,5 +7,6 @@ module "app-vpc" {
     tag = "app"
 }
 module "app-server" {
-    source = ""
+    source = "git::https://github.com/Ozoda777/terraform-modul.git//CHILD/EC2"
+    # source = "git@github.com/Ozoda777/terraform-modul//CHILD/EC2"
 }
